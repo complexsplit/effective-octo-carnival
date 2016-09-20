@@ -19,7 +19,7 @@ node {
     withCredentials(
         [[
             $class: 'UsernamePasswordMultiBinding',
-            credentialsId: 'dockerhub-mesosphere',
+            credentialsId: '38252a22-72a4-497f-8019-97dfa5d29964',
             passwordVariable: 'poiupoiupoiu',
             usernameVariable: 'poiupoiupoiu'
         ]]
